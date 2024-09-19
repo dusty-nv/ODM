@@ -11,8 +11,8 @@ if(CUDA_FOUND)
         STAMP_DIR         ${_SB_BINARY_DIR}/stamp
         #--Download step--------------
         DOWNLOAD_DIR      ${SB_DOWNLOAD_DIR}
-        GIT_REPOSITORY    https://github.com/OpenDroneMap/pypopsift
-        GIT_TAG           288
+        GIT_REPOSITORY    https://github.com/dusty-nv/pypopsift
+        GIT_TAG           master
         #--Update/Patch step----------
         UPDATE_COMMAND    ""
         #--Configure step-------------

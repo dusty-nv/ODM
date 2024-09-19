@@ -6,7 +6,7 @@ APT_GET="env DEBIAN_FRONTEND=noninteractive $(command -v apt-get)"
 check_version(){  
   UBUNTU_VERSION=$(lsb_release -r)
   case "$UBUNTU_VERSION" in
-    *"20.04"*|*"21.04"*)
+    *"20.04"*|*"21.04"*|*"22.04"*|*"24.04"*)
       echo "Ubuntu: $UBUNTU_VERSION, good!"
       ;;
     *"18.04"*|*"16.04"*)
