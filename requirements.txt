@@ -4,7 +4,7 @@ beautifulsoup4==4.9.3
 cloudpickle==1.6.0
 edt==2.0.2
 ODMExifRead==3.0.4
-Fiona==1.8.17 ; sys_platform == 'linux'
+Fiona==1.10.0 ; sys_platform == 'linux'
 Fiona==1.9.1 ; sys_platform == 'darwin'
 https://github.com/OpenDroneMap/windows-deps/raw/main/Fiona-1.8.19-cp38-cp38-win_amd64.whl ; sys_platform == 'win32'
 joblib==1.1.0
@@ -29,7 +29,6 @@ scipy==1.8.1
 xmltodict==0.12.0
 fpdf2==2.4.6
 Shapely==1.7.1
-onnxruntime==1.12.1
 pygltflib==1.15.3
 codem==0.24.0
 trimesh==3.17.1
